@@ -49,7 +49,7 @@ import pandas as pd
 import pymongo as pym
 
 # Define the MongoDB connection details
-client = pym.MongoClient("mongodb+srv://Amjath:amjath@cluster0.49sva5i.mongodb.net/?retryWrites=true&w=majority")
+client = pym.MongoClient("mongodb+srv://@cluster0.49sva5i.mongodb.net/?retryWrites=true&w=majority")
 db = client["TWITTERSCRAPING"]
 collection = db["SCRAPED_DATA"]
 
@@ -92,7 +92,7 @@ import pandas as pd
 import pymongo
 
 # Connect to MongoDB
-client = pymongo.MongoClient("mongodb+srv://Amjath:amjath@cluster0.49sva5i.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://@cluster0.49sva5i.mongodb.net/?retryWrites=true&w=majority")
 db = client["TWITTERSCRAPING"]
 collection = db["SCRAPED_DATA"]
 
